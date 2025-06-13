@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class WorldController {
-    
-    @GetMapping("/hello")
-    public String helloWorldWithDuckPage() {
-        return "hello_world";
-    }
+
+  @GetMapping("/hello")
+  public String helloWorldWithDuckPage() {
+    return "hello_world";
+  }
 }
